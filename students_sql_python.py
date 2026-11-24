@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from urllib.parse import quote_plus
 
 # 1. Connect to MySQL
-password = quote_plus("root")
+password = quote_plus("YOUR PASSWORD")
 engine = create_engine(f"mysql+pymysql://root:{password}@localhost:3306/students_db")
 
 # Connection test (1000 varanum)
