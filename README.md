@@ -1,26 +1,12 @@
-# Students Performance Analysis (MySQL + Python)
+# Students Performance Analysis using SQL & Python
 
-An end-to-end data analytics project integrating **MySQL** and **Python** to analyze student exam performance across gender, parental education, and test preparation courses.
+Analysed student exam scores using MySQL queries run from Python.
 
-## Tools & Libraries Used
-- **Database:** MySQL (`students_db`)
-- **Python Libraries:** Pandas, SQLAlchemy, PyMySQL, Matplotlib
-
-## Project Files
-- `StudentsPerformance_dataset.csv` — Dataset containing 1,000 student records.
-- `students_queries.sql` — SQL scripts for database creation and exploratory analysis.
-- `students_sql_python.py` — Python script connecting to MySQL via SQLAlchemy to fetch query results and generate visualizations.
-
-## Key Insights & Visualizations
-
-### 1. Math Pass vs Fail (Pass Mark: 40)
-![Math Pass vs Fail](math_pass_fail.png)
-
-### 2. Average Scores by Gender
-![Average Scores by Gender](scores_by_gender.png)
-
-### 3. Average Score by Parental Education
-![Average Score by Parental Education](scores_by_parent_education.png)
-
-### 4. Impact of Test Preparation Course
-![Average Scores: Test Prep Course](scores_by_test_prep.png)
+- Dataset: Students Performance in Exams (Kaggle practice dataset), 1,000 records
+- Tools: MySQL Workbench, Python (Pandas, SQLAlchemy, Matplotlib)
+- Insights (in this dataset):
+  - Students who completed test prep scored higher: math 69.7 vs 64.1, reading 73.9 vs 66.5, writing 74.4 vs 64.5
+  - Average score rose with parental education, from 63.1 (high school) to 73.6 (master's)
+  - Female students scored higher in reading and writing, male students in math
+  - 960 of 1,000 students passed math (pass mark 40)
+- Files: students_queries.sql, students_sql_python.py, charts
