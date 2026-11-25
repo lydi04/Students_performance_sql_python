@@ -10,3 +10,10 @@ Analysed student exam scores using MySQL queries run from Python.
   - Female students scored higher in reading and writing, male students in math
   - 960 of 1,000 students passed math (pass mark 40)
 - Files: students_queries.sql, students_sql_python.py, charts
+
+## MySQL Workbench Query Output
+
+### Impact of Test Preparation Course
+![Test Prep Query](screenshots/q2_test_prep.png)
+
+> All 5 SQL query screenshots are available in the [`screenshots/`](./screenshots) folder.
